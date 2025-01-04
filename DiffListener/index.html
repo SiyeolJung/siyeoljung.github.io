@@ -220,15 +220,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce DiffListener, a new method for non-autoregressive listener head generation (LHG) that produces natural nonverbal listener responses based on the speaker's multimodal cues.
-          </p>
-          <p>
-            Unlike previous methods, which often rely on limited modalities (e.g., audio, facial information) or use autoregressive approaches that can lead to accumulated errors, our approach adopts a discrete diffusion-based framework to address these challenges. 
-            DiffListener uses the speaker's facial information, audio, and text, and also incorporates facial differential information to effectively capture the temporal dynamics of expressions and movements.
-          </p>
-          <p>
-            By explicitly modeling these facial dynamics, DiffListener generates coherent reaction sequences without relying on an autoregressive process, ensuring consistency and contextual relevance. Extensive experiments show that DiffListener achieves state-of-the-art performance in both quantitative and qualitative evaluations. 
-            User studies further confirm that DiffListener generates natural, context-aware listener reactions that are well-aligned with the speaker.
+            The listener head generation (LHG) task aims to generate natural nonverbal listener responses based on the speaker's multimodal cues.
+            While prior work either rely on limited modalities (e.g. audio, facial information) or employ autoregressive approaches which have some limitations such as accumulating prediction errors.
+            To address these limitations, we propose DiffListener, a discrete diffusion based approach for non-autoregressive listener head generation. 
+            Our model takes the speaker's facial information, audio, and text as inputs, additionally incorporating facial differential information to represent the temporal dynamics of expressions and movements. 
+            With this explicit modeling of facial dynamics, DiffListener can generate coherent reaction sequences in a non-autoregressive manner.
+            Through comprehensive experiments, DiffListener demonstrates state-of-the-art performance in both quantitative and qualitative evaluations. 
+            The user study shows that DiffListener generates natural context-aware listener reactions that are well synchronized with the speaker.
           </p>                           
         </div>
       </div>
@@ -238,7 +236,7 @@
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
