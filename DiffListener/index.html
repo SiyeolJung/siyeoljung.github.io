@@ -153,63 +153,8 @@
   </div>
 </section> -->
 
-<!-- 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
+
+
 
 
 <section class="section">
@@ -234,7 +179,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="publication-video">
@@ -242,7 +187,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
@@ -251,10 +196,9 @@
 <!-- <section class="section"> -->
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-
+    <!-- <div class="columns is-centered"> -->
       <!-- Visual Effects. -->
-      <div class="column">
+      <!-- <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
           <p>
@@ -266,11 +210,11 @@
                     type="video/mp4">
           </video>
         </div>
-      </div>
+      </div> -->
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-      <div class="column">
+      <!-- <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
           <div class="column content">
@@ -286,16 +230,105 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Matting. -->
 
-    <!-- Animation. -->
+    <!-- Overview-->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h3 class="title is-4">Overview</h3>
+        <div class="content has-text-justified">
+          <p>
+            Our model is composed of three main components: a fusion network, a discrete diffusion model, and a facial decoder.
+            The fusion network integrates the speaker's 3DMM, audio features, differential 3DMM, and textual information to derive the speaker's representation.
+            Based on this representation, the discrete diffusion model generates the listener's response codebook index sequence.
+            Finally, the facial decoder uses this generated index sequence to produce the listener's facial information.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./images/ICASSP_overall architecture.png"
+               class="architecture-image"
+               alt="Overview"
+               width="65%"
+               />
+        </div>
+      </div>  
+    </div>
+    <!--/ Overview-->
+
+    <!-- Visualization -->
+    <div class="column is-full-width">
+        <h3 class="title is-4">Video</h3>
+        <h4 class="title is-5" style="color:grey"> Trevor dataset</h4>
+        <div class="content has-text-centered">
+          <section class="hero is-light is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item item-steve">
+                    <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_trevor04.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-chair-tp">
+                    <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_trevor07.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-shiba">
+                    <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_trevor08.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <h4 class="title is-5" style="color:grey"> Stephen dataset</h4>
+        <div class="content has-text-centered">
+          <section class="hero is-light is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                  <div class="item item-steve">
+                    <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_stephen_Ricky_271.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-chair-tp">
+                    <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_stephen_051_118.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item item-shiba">
+                    <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+                      <source src="./videos/projectpage_stephen_042_85.mp4"
+                              type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!--/ Qualitative Result. -->
+
+
+    <!-- Animation. -->
+    <!-- <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -325,11 +358,11 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
@@ -346,11 +379,11 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
         <!--/ Re-rendering. -->
 
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
     <!--/ Animation. -->
 
 
