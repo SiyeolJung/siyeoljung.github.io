@@ -1,294 +1,261 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>SiyeolJung</title>
-    
+    <title>Siyeol Jung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Siyeol Jung - M.S. student in Artificial Intelligence at UNIST working on multimodal interactive AI, motion modeling, and generation."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <!-- <h1><b>Siyeol Jung</b></h1>
-        <h2>(정시열)</h2> -->
-        <h1><b>Siyeol Jung</b> <span style="font-size: 0.7em; font-weight: normal;"></span></h1>
-        <img src="images/siyeol.jpg" alt="Siyeol Jung" style="width: 200px; height: 200px; border: none;">
-        <br>
-      
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <div>
-          <i class="fas fa-envelope" style="margin-right: 5px;"></i>
-          siyeol@unist.ac.kr  
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <main class="wrapper">
+        <aside class="profile-card">
+          <div class="profile-photo-wrap">
+            <img class="profile-photo" src="images/siyeol.jpg" alt="Portrait of Siyeol Jung">
+          </div>
+
+          <p class="eyebrow">Multimodal Interactive AI</p>
+          <h1>Siyeol Jung</h1>
+          <p class="profile-summary">
+            M.S. student at UNIST, developing research in multimodal interaction,
+            generative modeling, and human motion understanding for an academic career.
+          </p>
+
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:siyeol@unist.ac.kr">
+              <i class="fa-regular fa-envelope"></i>
+              <span>siyeol@unist.ac.kr</span>
+            </a>
+            <a class="contact-item" href="files/CV_SiyeolJung.pdf" target="_blank" rel="noreferrer">
+              <i class="fa-regular fa-file-lines"></i>
+              <span>Curriculum Vitae</span>
+            </a>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Ulsan, South Korea</span>
+            </div>
+          </div>
+
+          <div class="tag-row">
+            <span>Interactive AI</span>
+            <span>Motion Modeling</span>
+            <span>Generative Models</span>
+          </div>
+        </aside>
+
+        <div class="content-column">
+          <section class="hero-panel">
+            <p class="hero-kicker">Research Profile</p>
+            <h2>
+              Building multimodal systems that listen, respond, and move with people.
+            </h2>
+            <p>
+              I am a Master's student in
+              <a href="https://aigs.unist.ac.kr/eng/index.php">AIGS</a> at
+              <a href="https://unist-kor.unist.ac.kr/">UNIST</a>, advised by
+              Prof. <a href="https://sites.google.com/view/taehwankim">Taehwan Kim</a>.
+              This website is intended as an academic profile for research and graduate study applications.
+              My research focuses on
+              <strong>multimodal interactive AI</strong>,
+              <strong>human motion modeling</strong>, and
+              <strong>multimodal generative models</strong>.
+            </p>
+          </section>
+
+          <section class="content-section">
+            <div class="section-heading">
+              <p>Background</p>
+              <h3>Education</h3>
+            </div>
+
+            <article class="timeline-card">
+              <div class="timeline-top">
+                <div>
+                  <h4>UNIST</h4>
+                  <p>Ulsan, Korea</p>
+                </div>
+                <span>2024.03 - Present</span>
+              </div>
+              <ul>
+                <li>M.S. in Artificial Intelligence</li>
+                <li>
+                  Advisor:
+                  <a href="https://sites.google.com/view/taehwankim">Prof. Taehwan Kim</a>
+                </li>
+              </ul>
+            </article>
+
+            <article class="timeline-card">
+              <div class="timeline-top">
+                <div>
+                  <h4>Soongsil University</h4>
+                  <p>Seoul, Korea</p>
+                </div>
+                <span>2018.03 - 2024.02</span>
+              </div>
+              <ul>
+                <li>B.S. in Software</li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="content-section">
+            <div class="section-heading">
+              <p>Selected Work</p>
+              <h3>Publications</h3>
+            </div>
+
+            <ol class="publication-list">
+              <li>
+                <p class="publication-title">
+                  DyaDiT: A Multi-Modal Diffusion Transformer for Socially-Aware Dyadic Gesture Generation
+                </p>
+                <p class="publication-meta">
+                  Yichen Peng, Jyun-Ting Song, <strong>Siyeol Jung</strong>, Ruofan Liu, Haiyang Liu,
+                  Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani
+                </p>
+                <p class="publication-venue">
+                  CVPR, 2026
+                  <a href="https://arxiv.org/pdf/2602.23165">PDF</a>
+                </p>
+              </li>
+              <li>
+                <p class="publication-title">
+                  Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video
+                </p>
+                <p class="publication-meta">
+                  Chanhyuk Choi, Taesoo Kim, Donggyu Lee, <strong>Siyeol Jung</strong>, Taehwan Kim
+                </p>
+                <p class="publication-venue">CVPR, 2026</p>
+              </li>
+              <li>
+                <p class="publication-title">
+                  Environmental Understanding Vision-language Model for Embodied Agent
+                </p>
+                <p class="publication-meta">
+                  Jinsik Bang, Jaeyeon Bae, Donggyu Lee, <strong>Siyeol Jung</strong>, Taehwan Kim
+                </p>
+                <p class="publication-venue">Findings of CVPR, 2026</p>
+              </li>
+              <li>
+                <p class="publication-title">
+                  Crafting Query-Aware Selective Attention for Single Image Super-Resolution
+                </p>
+                <p class="publication-meta">
+                  Junyoung Kim, Youngrok Kim, <strong>Siyeol Jung</strong>, Donghyun Min
+                </p>
+                <p class="publication-venue">
+                  arXiv preprint, 2025
+                  <a href="https://arxiv.org/pdf/2504.06634">PDF</a>
+                </p>
+              </li>
+              <li>
+                <p class="publication-title">
+                  DiffListener: Discrete Diffusion Model for Listener Generation
+                </p>
+                <p class="publication-meta">
+                  <strong>Siyeol Jung</strong>, Taehwan Kim
+                </p>
+                <p class="publication-venue">
+                  ICASSP, 2025
+                  <a href="https://arxiv.org/abs/2502.06822">PDF</a>
+                  <a href="https://siyeoljung.github.io/DiffListener/">Project Page</a>
+                </p>
+              </li>
+              <li>
+                <p class="publication-title">
+                  Music Emotion Recognition Using Hierarchical Contrastive Learning
+                </p>
+                <p class="publication-meta">
+                  <strong>Siyeol Jung</strong>, Yubin Choi, E. Cho Smith, Mia Y. Wang
+                </p>
+                <p class="publication-venue">
+                  AIxHEART, 2024
+                  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10833956">PDF</a>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <div class="two-column-grid">
+            <section class="content-section compact-section">
+              <div class="section-heading">
+                <p>Applied Work</p>
+                <h3>Patent</h3>
+              </div>
+              <ul class="detail-list">
+                <li>
+                  <p class="publication-title">Method and robot to guide path for the blinds</p>
+                  <p class="publication-meta">
+                    Youngjong Kim, Hakyoun Kim, Kwanghoon Park, <strong>Siyeol Jung</strong>,
+                    Junwoo Jung, Yeeun Heo
+                  </p>
+                  <p class="publication-venue">KR-Application No. 10-2019-0035857</p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="content-section compact-section">
+              <div class="section-heading">
+                <p>Service</p>
+                <h3>Professional Activities</h3>
+              </div>
+              <ul class="detail-list">
+                <li>Reviewer, ICASSP 2026</li>
+              </ul>
+            </section>
+          </div>
+
+          <section class="content-section">
+            <div class="section-heading">
+              <p>Academic Visits</p>
+              <h3>Experiences</h3>
+            </div>
+            <div class="experience-grid">
+              <article class="experience-card active">
+                <span class="experience-label">Carnegie Mellon University</span>
+                <h4>Visiting Student, S3D</h4>
+                <p>United States</p>
+                <span>2025.08 - 2026.02</span>
+              </article>
+              <article class="experience-card">
+                <span class="experience-label">Purdue University</span>
+                <h4>Visiting Student, CNIT</h4>
+                <p>United States</p>
+                <span>2023.03 - 2023.06</span>
+              </article>
+            </div>
+          </section>
         </div>
-        <div>
-          <a href="files/CV_SiyeolJung.pdf" target="_blank" style="text-decoration: none; color: inherit;">
-          <i class="fas fa-file" style="margin-right: 8px;"></i>
-          CV
-          </a>  
-        </div>
-        <div>
-          <i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i>
-          Pittsburgh, Pennsylvania
-        </div>
+      </main>
 
-        
-        <!-- <p>A Theme for GitHub Pages</p> -->
-        <!-- <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p> -->
-        <!-- <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul> -->
-      </header>
-      <section>
-        Hello! I am a Master student in <a href="https://aigs.unist.ac.kr/eng/index.php">AIGS</a> at <a href="https://unist-kor.unist.ac.kr/">UNIST</a>,
-        and studying under the supervision of Prof. <a href="https://sites.google.com/view/taehwankim">Taehwan Kim</a>.
-        ,and currently a visiting student at CMU.
-        I am interested in researching <b>Multimodal Interactive AI</b>, <b>Human Motion Modeling</b>, <b>Multimodal Generation model</b>.
-        
-        <br>
-        <br>
-
-        <h3>Education</h3>
-        <!-- <ul>
-          <li>2024.03 - Present, M.S. in Artificial Intelligence, UNIST</li>
-          <li>2018.03 - 2024.02, B.S. in Software, Soongsil University</li>
-        </ul> -->
-
-        <p>
-          <i class="fas fa-university" style="margin-right: 8px;"></i>
-          <b>UNIST</b>, Ulsan, Korea <span style="font-size: 0.8em; vertical-align: top; font-weight: normal; color: #666666;">2024.03 - Present</span>
-        </p>
-        <ul>
-          <li>M.S. in Artificial Intelligence</li>
-          <!-- <li>Cumulative GPA: 3.86 / 4.3</li> -->
-          <li>Advisor:  <a href="https://sites.google.com/view/taehwankim">Prof. Taehwan Kim</a></b></li>
-        </ul>
-        <p>
-          <i class="fas fa-university" style="margin-right: 8px;"></i>
-          <b>Soongsil University</b>, Seoul, Korea <span style="font-size: 0.8em; vertical-align: top; font-weight: normal; color: #666666;">2018.03 - 2024.02</span>
-        </p>
-        <ul>
-          <li>B.S. in Software</li>
-          <!-- <li>Cumulative GPA: 3.86 / 4.5</li> -->
-        </ul>
-
-        
-        <h3>Publications</h3>
-        <ol>
-          <li>Yichen Peng, Jyun-Ting Song, <b>Siyeol Jung</b>, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani, "DyaDiT: A Multi-Modal Diffusion Transformer for Socially-Aware Dyadic Gesture Generation", Conference on Computer Vision and Pattern Recognition (CVPR), 2026</li>
-          <li>Chanhyuk Choi, Taesoo Kim, Donggyu Lee, <b>Siyeol Jung</b>, Taehwan Kim, "Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video", Conference on Computer Vision and Pattern Recognition (CVPR), 2026</li>
-          <li>Jinsik Bang, Jaeyeon Bae, Donggyu Lee, <b>Siyeol Jung</b>, Taehwan Kim, "Environmental Understanding Vision-language Model for Embodied Agent", Findings of Conference on Computer Vision and Pattern Recognition (CVPR), 2026</li>
-          <li>Junyoung Kim, Youngrok Kim, <b>Siyeol Jung</b>, Donghyun Min, "Crafting Query-Aware Selective Attention for Single Image Super-Resolution", arXiv preprint, 2025 <A href= "https://arxiv.org/pdf/2504.06634"> [PDF] </A></li>
-          <li><b>Siyeol Jung</b>, Taehwan Kim, "DiffListener: Discrete Diffusion Model for Listener Generation", IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025 <A href = "https://arxiv.org/abs/2502.06822"> [PDF] </A> <A href = "https://siyeoljung.github.io/DiffListener/"> [Project Page] </A>
-          </li>
-          <li><b>Siyeol Jung</b>, Yubin Choi, E. Cho Smith, Mia Y. Wang, "Music Emotion Recognition Using Hierarchical Contrastive Learning", IEEE International Conference on AI x Humanities, Education, and Art (AIxHeart), 2024 <A href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10833956"> [PDF] </A> </li>
-        </ol>
-
-        <h3>Patents</h3>
-        <ul>
-          <li>Youngjong Kim, Hakyoun Kim, Kwanghoon Park, <b>Siyeol Jung</b>, Junwoo Jung, Yeeun Heo, "Method and robot to guide path for the blinds", KR-Application No.10-2019-0035857</li>
-          </li>
-        </ul>
-
-        <h3>Experiences</h3>
-        <ul>
-          <li>Visiting Student, CNIT, Purdue University, US (2023.03 - 2023.06)</li>
-          <li>Visiting Student, S3D, Carnegie Mellon University, US (2025.08 - 2026.02)</li>
-        </ul>
-
-        <h3>Professional Activities</h3>
-        <ul>
-          <li> Reviewer: ICASSP2026</li>
-          
-        </ul>
-
-      </section>
-      <!-- <section>
-        <h1>GitHub Flavored Markdown</h1>
-
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
-
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
-
-        <p>Roses are red<br>
-        Violets are blue</p>
-
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
-
-        <p>Roses are red<br><br>
-        Violets are blue</p>
-
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
-
-        <h2>A bit of the GitHub spice</h2>
-
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
-
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
-
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
-
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
-
-        <h2>Math is hard, let's go shopping</h2>
-
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-
-        <p>Triangles man! a^2 + b^2 = c^2</p>
-
-        <h2>We all like making lists</h2>
-
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
-
-        <p>Let's get crazy:</p>
-
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
-
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
-
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
-
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
-
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
-
-        <p>Some people seem to like definition lists</p>
-
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <h2>I am a robot</h2>
-
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-
-        <p>How about we throw some angle braces and ampersands in there?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Set in stone</h2>
-
-        <p>Preformatted blocks are useful for ASCII art:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Playing the blame game</h2>
-
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
-
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-
-        <p>Or perhaps someone a little less eloquent:</p>
-
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
-
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
-
-        <h2>Table for two</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Crazy linking action</h2>
-
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-      </section> -->
-      <footer>
-        <!-- <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p> -->
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      <footer class="page-footer">
+        <p><small>Hosted on GitHub Pages</small></p>
       </footer>
     </div>
+
     <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
