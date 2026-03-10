@@ -89,7 +89,7 @@ strong {
   margin: 0 auto;
   padding: 52px 0 32px;
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr);
+  grid-template-columns: 320px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
@@ -107,13 +107,13 @@ strong {
 .profile-card {
   position: sticky;
   top: 28px;
-  padding: 28px;
+  padding: 24px;
   border-radius: var(--radius-xl);
 }
 
 .profile-photo-wrap {
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-bottom: 18px;
+  padding: 8px;
   border-radius: 28px;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(240, 219, 192, 0.85));
@@ -123,7 +123,7 @@ strong {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 22px;
+  border-radius: 20px;
 }
 
 .eyebrow,
@@ -150,31 +150,32 @@ strong {
 }
 
 .profile-card h1 {
-  margin-top: 10px;
-  font-size: clamp(2.6rem, 4vw, 3.3rem);
+  margin-top: 8px;
+  font-size: clamp(2rem, 3vw, 2.55rem);
 }
 
 .profile-summary {
-  margin: 18px 0 0;
+  margin: 14px 0 0;
   color: var(--muted);
-  font-size: 0.98rem;
+  font-size: 0.94rem;
 }
 
 .contact-list {
-  margin-top: 24px;
+  margin-top: 20px;
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 13px 14px;
+  padding: 11px 12px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.52);
   border: 1px solid var(--line);
   color: var(--text);
+  font-size: 0.93rem;
 }
 
 a.contact-item:hover {
@@ -184,21 +185,21 @@ a.contact-item:hover {
 }
 
 .tag-row {
-  margin-top: 22px;
+  margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
-  gap: 9px;
+  gap: 8px;
 }
 
 .tag-row span {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 0 12px;
+  min-height: 30px;
+  padding: 0 10px;
   border-radius: 999px;
   background: var(--surface-soft);
   color: var(--accent-strong);
-  font-size: 0.84rem;
+  font-size: 0.78rem;
   font-weight: 700;
 }
 
@@ -226,8 +227,8 @@ a.contact-item:hover {
 
 .hero-panel h2 {
   margin-top: 12px;
-  max-width: 9.5ch;
-  font-size: clamp(2.3rem, 4vw, 4rem);
+  max-width: none;
+  font-size: clamp(1.45rem, 2.05vw, 2.15rem);
 }
 
 .hero-panel p:last-child {
